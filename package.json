@@ -1,0 +1,19 @@
+{
+  "name": "0x-test-project",
+  "version": "0.0.0",
+  "description": "Illustrating a strange build error",
+  "main": "dist/index.js",
+  "repository": "https://github.com/ParadigmFoundation/zaidan-liquidity/blob/master/services/order-creator",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "0x.js": "^6.0.9"
+  },
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  }
+}
