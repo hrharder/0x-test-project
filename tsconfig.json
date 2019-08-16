@@ -1,13 +1,16 @@
 {
   "compilerOptions": {
-    "target": "es6",
+    "target": "es3",
     "module": "commonjs",
     "outDir": "dist",
     "rootDir": "src",
     "sourceMap": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "typeRoots": ["node_modules/@types"]
+    "typeRoots": [
+      "node_modules/@types",
+      "node_modules/@0x/typescript-typings/types"
+    ]
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
